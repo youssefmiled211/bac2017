@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="controles.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="post">
+        <fieldset>
+            <center><h1>Proposition d'un offere</h1></center>
+            cin: <input type="text" name="cin" id="cin"><br>
+            Nom: <input type="text" name="nom" id="nom"><br>
+            prenom: <input type="text" name="prenom" id="prenom"><br>
+            tel: <input type="text" name="tel" id="tel"><br>
+            <hr>
+            article: <br>
+            <select name="article" id="art">
+                <option value="0">selectione un article</option>
+                <option value="1">les gants du gardien atouga</option>
+                <option value="2">voiture 202 bh</option>
+                <option value="3">luth de hedi jouini</option>
+                <option value="4">maniscrt de abu elkacem chabbi</option>
+            </select><br>
+            prix propose: <input type="number" name="prix" id="prix">(Dt)<br>
+            <input type="reset" value="annuler">
+            <input type="submit" value="valider" onclick="verif1()">
+        </fieldset>
+    </form>
+</body>
+</html>
